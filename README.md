@@ -103,8 +103,7 @@ echo $LD_PRELOAD
 ```
 
 If OneAgent is not running:
-1. Download from your Dynatrace environment → **Deployment** → **Linux**
-2. Install: `sudo ./dynatrace-oneagent-linux-VERSION.sh`
+1. Download from your Dynatrace environment and install
 3. Start: `sudo systemctl start oneagent`
 
 ---
