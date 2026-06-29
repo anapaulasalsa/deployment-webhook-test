@@ -13,7 +13,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: health,info,env,logs
+        include: health,info,env,logs,metrics
   endpoint:
     health:
       show-details: always
